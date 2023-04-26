@@ -1,0 +1,65 @@
+<ion-header class="ion-no-border" [translucent]="true">
+  <!-- <div class="back-btns">
+    <ion-button href="/welcome" class="back-btn"><ion-icon name="arrow-back" class="p-2" start></ion-icon></ion-button>
+  </div> -->
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+     
+  </ion-header>
+    <div class="image-block">
+      <ion-img src="../../assets/images/Nerd-pana.svg"></ion-img>
+    </div>
+  <ion-card class="ion-no-margin shadow">
+    <ion-card-header>
+      <ion-card-title>
+          <h2 class="d-flex text-center mb-2">Sign Up</h2>
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <div class="lg:flex">
+        <div class="lg:w-1/2 xl:max-w-screen-sm">
+          <form>
+            <div>
+                <div class="text-left font-bold text-gray-700 tracking-wide mb-2">User Name</div>
+                <input class="w-full text-lg form-control" type="" placeholder="Enter Name">
+            </div>
+            <div class="mt-2">
+                <div class="flex justify-between items-center">
+                    <div class="text-sm font-bold text-gray-700 tracking-wide mb-2">
+                        Password
+                    </div>
+                
+                </div>
+                <input class="w-full text-lg form-control" type="" placeholder="Enter password">
+            
+              </div>
+              <div class="mt-2">
+                <div class="flex justify-between items-center">
+                    <div class="text-sm font-bold text-gray-700 tracking-wide mb-2">
+                      Confirm Password
+                    </div>
+                
+                </div>
+                <input class="w-full text-lg form-control" type="" placeholder="Confirm password">
+            
+              </div>
+              
+            <div class="mt-4">
+                <button class="login-btn text-gray-100 p-4 w-full tracking-wide
+                font-semibold font-display focus:outline-none focus:shadow-outline hover:bg-indigo-600
+                shadow-lg">
+                    Sign Up
+                </button>
+            </div>
+        </form>
+          <div class="mt-5 text-sm font-display font-semibold text-gray-700 text-center">
+              Already have a account ? <a  href="/login" class="cursor-pointer text-indigo-600 hover:text-indigo-800">Sign In</a>
+          </div>
+        </div>
+
+    </div>
+    </ion-card-content>
+ </ion-card>
+</ion-content>

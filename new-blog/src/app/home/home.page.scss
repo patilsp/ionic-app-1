@@ -1,0 +1,33 @@
+ion-content{
+    --background: #E1EAF9;
+    --background: url("../../assets/images/bg.png") no-repeat center center fixed;
+}
+:host {
+    --background: var(--ion-card-background, var(--ion-item-background, var(--ion-background-color, transparent)));
+     box-shadow: none !important
+}
+
+ion-toolbar{
+    --background:transparent;
+}
+ion-card{
+    --background: #EFEEEF !important;
+    position: fixed;
+    bottom: 0;
+    height: 58%;
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+ion-card-content{
+    // display: grid;
+    // text-align: center;
+    // justify-content: center;
+    
+}
+
+ion-avatar{
+    height: 30px;
+    width: 30px;
+}

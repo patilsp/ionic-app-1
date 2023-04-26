@@ -1,0 +1,97 @@
+ion-content{
+    // --background: #E1EAF9;
+    --background: url("../../assets/images/bg.png") no-repeat center center fixed;
+
+}
+
+ion-header{
+    position: absolute;
+}
+ion-toolbar{
+    --background:transparent;
+    --opacity:0px;
+}
+ion-card{
+    --background: #EFEEEF !important;
+    position: fixed;
+    bottom: 0;
+    height: 58%;
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+:host {
+    --background: var(--ion-card-background, var(--ion-item-background, var(--ion-background-color, transparent)));
+     box-shadow: none !important
+}
+ion-card-content{
+    // display: grid;
+    // text-align: center;
+    // justify-content: center;
+    
+}
+.start-btns{
+    bottom: 20px;
+    right: 30px;
+    display: grid;
+    position: fixed;
+    justify-content: center;
+    text-align: center;
+    color: #628cff;    
+}
+
+.text-tag{
+    margin-top: 35px;
+    text-align: center;
+    span{
+        font-size: 13px;
+    }
+}
+.back-btns{
+    top: 10px;
+    left: 10px;
+    display: grid;
+    position: fixed;
+    justify-content: center;
+    text-align: center;
+
+    .back-btn{
+        position: absolute;
+        overflow: hidden;
+        border-radius: 10%;
+        --background: #fff !important;
+        color: #c380db;
+        font-weight: bold;
+    }
+}
+.image-block{
+    --background: #fff !important;
+    margin-top: 10px;
+    padding: 25px;
+}
+.login-btn{
+    border: none;
+    padding: 15px 70px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    background: #d189ce;
+    color: #fff;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 9px 15px -11px rgba(178,97,234,255);
+    -moz-box-shadow: 0px 9px 15px -11px rgba(178,97,234,255);
+    box-shadow: 0px 9px 15px -11px rgba(178,97,234,255);
+}
+.form-control{
+    border: 1px solid #d189ce;
+    width: 100%;
+    padding: 13px 15px;
+    border-radius: 10px;
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+   
+}
+.form-control:focus{
+    border: 1px solid #583672;
+}
